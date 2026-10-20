@@ -1,0 +1,19 @@
+# Program to calculate the area of a triangle
+
+while True:
+	try:
+		base = float(input("Enter the base of the triangle: "))
+		height = float(input("Enter the height of the triangle: "))
+
+		if base <= 0 or height <= 0:
+			print("Base and height must be greater than zero.")
+			continue
+		break
+	except ValueError:
+		print("Please enter numeric values for the base and height.")
+
+area = 0.5 * base * height
+
+print("The base of the triangle is:", base)
+print("The height of the triangle is:", height)
+print("The area of the triangle is:", area)
