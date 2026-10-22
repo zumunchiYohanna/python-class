@@ -1,0 +1,7 @@
+#vehical collision skid Analysis
+distance = float(input("enter the skid mark distance (feet):"))
+drag_factor = float(input("enter the drag factor:"))
+
+#speed calculation formula
+speed =(30 * distance * drag factor) ** 0.5
+print(f"the calculated speed is: {speed:.2f} mph")
